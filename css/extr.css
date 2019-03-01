@@ -1,0 +1,100 @@
+body{
+    font-family:'ZCOOL QingKe HuangYou', cursive;
+    background: linear-gradient(to right,#91217e 0,#2f0028 100%);
+}
+
+
+.mfp-popup-header a{
+visibility: hidden;
+}
+
+.mfp-popup-header a .mfp-close-button{
+visibility: visible;
+}
+.mfp-popup-header::after{
+visibility: visible;
+content: "New Class";
+}
+#datePicker .mfp-bg-cell.mfp-selection .mfp-bg-cell-header
+{
+    background-color: #d4d4d4;
+}
+.contacts span, .contacts span:before, .contacts span * {
+    visibility: hidden;;
+    content: "";
+}
+.contacts span::after {
+    visibility: visible;
+    content: "Day";
+}
+.mfp-location{
+    visibility: hidden;
+}	
+
+.mfp-endTime{
+    visibility: hidden;
+}
+.mfp-startTime{
+    visibility: hidden;
+}
+
+.mfp-reminder{
+    visibility: hidden;
+}
+
+.details span, .details span:before, .details span * {
+    visibility: hidden;;
+    content: "";
+}
+
+.details span::after {
+    visibility: visible;
+    content: "Teacher (&Location)";
+}
+#head_ing{
+text-align: center;
+font-family: 'Nova Script', cursive;
+font-size: 40px;
+color: rgb(245, 212, 171);
+}
+#orientation{
+font-family: 'Nova Script', cursive;
+text-align:center;
+color: black;
+}
+#ori{
+text-align: center;
+}
+
+.mfp-cell-wrap[z-index=5] > .mfp-cell::after {
+    content: "Lunch";
+}
+
+.fill {
+   
+    position: relative;
+    height: 150px;
+    width: 150px;
+    top: 5px;
+    left: 5px;
+    cursor: pointer;
+  }
+  
+  .hold {
+    border: solid 5px #ccc;
+  }
+  
+  .empty {
+    display: inline-block;
+    height: 160px;
+    width: 160px;
+    margin: 10px;
+    border: solid 3px salmon;
+    background: white;
+  }
+  
+  .hovered {
+    background: #f4f4f4;
+    border-style: dashed;
+  }
+
